@@ -140,7 +140,7 @@
   .contact-sub{color:var(--muted);max-width:500px;margin:0 auto 2.5rem;font-size:.97rem;line-height:1.75}
   .contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;max-width:620px;margin:0 auto}
   .cc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;text-align:left;transition:.3s;position:relative;overflow:hidden}
-  .cc::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,158,11,.04),transparent);opacity:0;transition:.3s}
+  .cc::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(245,158,11,.04),transparent);opacity:0;transition:.3s;pointer-events:none}
   .cc:hover{border-color:rgba(245,158,11,.4);transform:translateY(-4px)}
   .cc:hover::before{opacity:1}
   .cc-label{font-size:.65rem;letter-spacing:3px;color:var(--muted);text-transform:uppercase;margin-bottom:.4rem}
